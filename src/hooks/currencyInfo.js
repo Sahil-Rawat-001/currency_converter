@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 // function
-function useCurrencyInfo(currency){
+function currencyInfo(currency){
  
   const[data, setData] = useState({});
 
@@ -24,4 +24,4 @@ function useCurrencyInfo(currency){
   return data;
 }
 
-export default useCurrencyInfo;
+export default currencyInfo
